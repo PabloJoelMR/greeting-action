@@ -1,0 +1,17 @@
+name: Greeting Workflow
+
+on: [push]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run greeting action
+        uses: PabloJoelMR/greeting@main
+        with:
+          first_name: 'Pablo'
+          last_name: 'Reufer'

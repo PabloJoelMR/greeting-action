@@ -13,5 +13,5 @@ jobs:
       - name: Run greeting action
         uses: PabloJoelMR/greeting@main
         with:
-          first_name: 'Pablo Joel'
+          first_name: 'Pablo'
           last_name: 'Reufer'

@@ -23,5 +23,5 @@ jobs:
       - name: Run greeting script
         run: python .github/scripts/greet.py
         env:
-          first_name: 'Pablo'
+          first_name: 'Pablo Joel'
           last_name: 'Reufer'
